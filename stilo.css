@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(196, 165, 82);
+    background-image: url(../img/pfindex.jpg);
+    background-repeat: no-repeat;/*caso a imagem seja pequena coloca o no-repeat para não repetid a pagina toda*/
+    background-size:cover; /*caso a imagem seja grande poe para a imagem ficar do tamanho ideal*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 10px;
+    text-align: center;
+}
+h1{
+    background-color: rgb(214, 194, 81);
+    border: thick inset rgb(172, 64, 14);/*resumo dos tres de baixo*/
+    border-width: thick; /*espessura da borda */
+    border-color:  rgb(172, 64, 14);/*cor da borda*/
+    border-style: inset;/*estilo da borda*/
+    box-shadow: 0px 0px 30px 5px;
+    text-overflow: clip;
+    letter-spacing: 5px;
+    margin: 8%;
+    padding: 20px;
+    width: 1000px;
+    height: auto;
+    display: inline-block; 
+}
+.container{
+    text-align: center;
+}
+.cordas{
+    background-color: rgb(214, 194, 81);
+    border-left: groove 10px rgb(172, 64, 14);
+    border-right: groove 10px rgb(172, 64, 14);
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.idcordas{
+    background-color: rgba(252, 246, 189, 0.836);
+    border: 4px outset rgb(224, 214, 76);
+    transition: 1ms;/*determina o tempo de transição para a volta do estado normal*/
+    cursor: pointer;
+    width: 50px;
+    padding: 2px;
+}
+.idcordas:hover{
+    border: 4px solid rgba(252, 246, 189, 0.836);
+    background-color: rgb(224, 214, 76);
+    transition: 1s;
+}
+.metais{
+    background-color: rgb(214, 194, 81);
+    border-right: groove 10px rgb(172, 64, 14);
+    border-left: groove 10px rgb(172, 64, 14);
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.idmetais{
+    background-color: rgba(252, 246, 189, 0.836);
+    border: 4px outset rgb(224, 214, 76);
+    transition: 1ms;/*determina o tempo de transição para a volta do estado normal*/
+    cursor: pointer;
+    width: 50px;
+    padding: 2px;
+}
+.idmetais:hover{
+    border: 4px solid rgba(252, 246, 189, 0.836);
+    background-color: rgb(224, 214, 76);
+    transition: 1s;
+}
+.palhetas{
+    background-color: rgb(214, 194, 81);
+    border-right: groove 10px rgb(172, 64, 14);
+    border-left: groove 10px rgb(172, 64, 14);
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.idpalhetas{
+    background-color: rgba(252, 246, 189, 0.836);
+    border: 4px outset rgb(224, 214, 76);
+    transition: 1ms;/*determina o tempo de transição para a volta do estado normal*/
+    cursor: pointer;
+    width: 50px;
+    padding: 2px;
+}
+.idpalhetas:hover{
+    border: 4px solid rgba(252, 246, 189, 0.836);
+    background-color: rgb(224, 214, 76);
+    transition: 1s;
+}
